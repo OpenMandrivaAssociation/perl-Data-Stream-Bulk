@@ -1,15 +1,15 @@
 %define upstream_name    Data-Stream-Bulk
-%define upstream_version 0.08
+%define upstream_version 0.11
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	L<Path::Class::Dir> traversal
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Data/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Data/Data-Stream-Bulk-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Moose)
@@ -64,3 +64,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Feb 05 2010 cpan2dist 0.07-1mdv
 - initial mdv release, generated with cpan2dist
+
