@@ -13,6 +13,8 @@ Source0:	http://www.cpan.org/modules/by-module/Data/Data-Stream-Bulk-%{upstream_
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Moose)
+BuildRequires: perl(Test::Requires)
+BuildRequires: perl(Path::Class)
 BuildRequires:	perl(Sub::Exporter)
 BuildRequires:	perl(Test::use::ok)
 BuildRequires:	perl(namespace::clean)
